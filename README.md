@@ -18,7 +18,6 @@
 * Sample Vercel JSON Package file below..
 
 ``
-
 {
 	"version": 2,
 	"framework": null,
@@ -52,15 +51,12 @@
         "NODE_PATH": "node"
     }
 }
-
 ``
 
 #### Sample Index PHP File Content below:
 
 ``
-
 Require_Once($_SERVER["DOCUMENT_ROOT"].("/public/index.php"));
-
 ``
 
 #### Output Directory, Vercel:
