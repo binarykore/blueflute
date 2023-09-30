@@ -9,7 +9,7 @@
 * git branch -M main
 * git push origin main
 
-#### About:
+#### About - Project Blue Flute:
 
 * Blue Flute is a Demo / Sample Laravel to Vercel Deployment Workflow
 
@@ -59,6 +59,16 @@
 Require_Once($_SERVER["DOCUMENT_ROOT"].("/public/index.php"));
 ``
 
+#### Sample Vercel Ignore File Content below:
+
+* Input this in the .vercelignore file:
+
+``
+/vendor
+``
+
+* Then the vendor folder which where the Packages are installed will be ignored from getting parsed
+
 #### Output Directory, Vercel:
 
 * First create an Empty Folder named "dist"
@@ -69,6 +79,7 @@ Require_Once($_SERVER["DOCUMENT_ROOT"].("/public/index.php"));
 
 * Generate an Environment Variable from "php artisan key:generate"
 * Then Input these in the Environment Variables from Settings: APP_KEY:base64_APP_KEY
+
 
 ### Copyright since ( 2023 )
 ( C ) - [BinaryKore](https://github.com/binarykore), 09225205353
