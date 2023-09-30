@@ -1,5 +1,6 @@
 {
 	"version": 2,
+	"framework": null,
     "functions": {
 		"api/index.php": {
 			"runtime": "snowkelus-php@0.2.0"
