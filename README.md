@@ -1,6 +1,6 @@
 ## About this Work Flow:
 
-* Blue Flute is just a Demo Website which is the currently up to date version of Laravel to Vercel Deployment Workflow..
+* Blue Flute is just a Demo Website / Project / Package which is the currently up to date version of Laravel to Vercel Deployment Workflow..
 
 ## Donations and Payments:
 <details>
@@ -45,15 +45,11 @@
 * git branch -M main
 * git push origin main
 
-#### About - Project Blue Flute:
-
-* Blue Flute is a Demo / Sample Laravel to Vercel Deployment Workflow
-
 #### Vercel JSON Package File:
 
 * Sample Vercel JSON Package file below..
 
-``
+```php
 {
 	"version": 2,
 	"framework": null,
@@ -87,13 +83,13 @@
         "NODE_PATH": "node"
     }
 }
-``
+```
 
 #### Sample Index PHP File Content below:
 
-``
+```php
 Require_Once($_SERVER["DOCUMENT_ROOT"].("/public/index.php"));
-``
+```
 
 #### Sample Vercel Ignore File Content below:
 
@@ -118,4 +114,4 @@ Require_Once($_SERVER["DOCUMENT_ROOT"].("/public/index.php"));
 
 
 ### Copyright since ( 2023 )
-( C ) - [BinaryKore](https://github.com/binarykore), 09225205353
+( C ) - [Binary Kore](https://github.com/binarykore), 09225205353
