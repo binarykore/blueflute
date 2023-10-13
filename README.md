@@ -1,4 +1,6 @@
-## Blue Flute - How to Install:
+## About this Work Flow:
+
+* Blue Flute is just a Demo Website which is the currently up to date version of Laravel to Vercel Deployment Workflow..
 
 ## Donations and Payments:
 <details>
@@ -31,6 +33,8 @@
   <img src="https://cdn.snowkel.us/image/redirect/gcash"></img>
 </p>
 </details>
+
+## Blue Flute - How to Install:
 
 * php composer.phar create-project laravel/laravel project_name
 * cd project_name
